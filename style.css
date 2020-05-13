@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: withe;
+}
+
+.hero {
+  background: black;
+  height: 100vh;
+}
+
+.hero-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+.text {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 1;
+  color: white;
+}
